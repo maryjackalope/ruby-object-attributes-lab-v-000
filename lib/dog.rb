@@ -18,3 +18,6 @@ class Dog
 end #Dog
 
 fido = Dog.new
+
+snoopy = Dog.new
+snoopy.breed = "Beagle"
