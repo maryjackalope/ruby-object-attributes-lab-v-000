@@ -1,11 +1,18 @@
 class Dog
   
-  def bark
-    puts "Woof!"
-  end 
-  
-  def sit 
-    puts "The Dog is sitting"
+  def initialize(name)
+    @name = name
+  end
+ 
+  def name
+    @name
   end
   
+  def initialize(breed)
+    @breed = breed
+  end
+ 
+  def breed
+    @breed
+  end
 end #Dog
