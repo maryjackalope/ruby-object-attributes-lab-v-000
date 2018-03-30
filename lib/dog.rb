@@ -16,3 +16,5 @@ class Dog
     @breed
   end
 end #Dog
+
+fido = Dog.new
