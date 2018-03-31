@@ -21,13 +21,6 @@ class Person
     @job
   end
   
-  def job=(new_job)
-    @job = new_job
-  end
- 
   
 end #Person
-
-beyonce = Person.new
-beyonce.job = "Singer"
 
