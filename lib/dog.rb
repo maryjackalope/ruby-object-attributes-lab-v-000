@@ -18,6 +18,7 @@ class Dog
 end #Dog
 
 fido = Dog.new
+fido.instance_variable_set(:@name, "Fido")
 
 snoopy = Dog.new
 snoopy.breed = "Beagle"
